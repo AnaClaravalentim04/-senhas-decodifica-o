@@ -1,0 +1,47 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDF2D7"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFF7ED"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#D97706" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="80" width="580" height="340" rx="28" fill="url(#card)"/>
+  </g>
+
+  <g>
+    <circle cx="210" cy="190" r="58" fill="#F9A8D4" opacity="0.9"/>
+    <circle cx="250" cy="160" r="52" fill="#FBCFE8" opacity="0.8"/>
+    <circle cx="300" cy="195" r="60" fill="#FDBA74" opacity="0.8"/>
+
+    <path d="M380 230C380 174 430 122 492 122C548 122 594 172 594 230C594 287 558 332 494 332C430 332 380 287 380 230Z" fill="#86EFAC"/>
+    <path d="M405 230C405 183 445 146 492 146C534 146 572 183 572 230C572 276 534 312 492 312C445 312 405 276 405 230Z" fill="#4ADE80"/>
+    <circle cx="470" cy="214" r="10" fill="#14532D"/>
+    <circle cx="520" cy="214" r="10" fill="#14532D"/>
+    <path d="M470 261C485 273 502 280 520 261" stroke="#14532D" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M220 270C255 240 270 214 282 186C291 169 313 172 323 188C334 206 331 236 312 260C293 284 266 298 220 270Z" fill="#FDE68A"/>
+    <path d="M286 178C311 166 330 170 342 192C356 219 354 248 334 268C318 282 300 287 286 290C292 263 295 220 286 178Z" fill="#FBBF24"/>
+
+    <path d="M188 255C206 243 226 239 246 244C233 283 212 298 175 308C154 314 130 311 116 296C130 275 155 266 188 255Z" fill="#86EFAC"/>
+    <path d="M245 245C263 236 283 232 302 236C292 274 277 298 243 314C222 322 201 319 184 308C203 277 217 258 245 245Z" fill="#4ADE80"/>
+
+    <rect x="170" y="105" width="160" height="52" rx="12" fill="#F59E0B"/>
+    <text x="250" y="138" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#fff">SENHAS</text>
+  </g>
+
+  <g>
+    <text x="400" y="410" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#7C2D12">1 2 3 4 5</text>
+    <text x="400" y="448" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#7C3F13">decodificação em frutas</text>
+  </g>
+</svg>
