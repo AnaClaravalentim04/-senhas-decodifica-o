@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Senhas em Frutas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍎 Decodificador de Senhas em Frutas 🍎</h1>
+            <p>Digite um número de 1 a 5 para descobrir qual fruta é!</p>
+        </div>
+
+        <div class="input-section">
+            <input 
+                type="number" 
+                id="senhaInput" 
+                placeholder="Digite um número de 1 a 5" 
+                min="1" 
+                max="5"
+            >
+            <button onclick="decodificarSenha()">Decodificar</button>
+        </div>
+
+        <div id="resultado" class="resultado"></div>
+
+        <div class="tabela-frutas">
+            <h2>Tabela de Decodificação</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Número</th>
+                        <th>Fruta</th>
+                        <th>Emoji</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Maçã</td>
+                        <td>🍎</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Banana</td>
+                        <td>🍌</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Morango</td>
+                        <td>🍓</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Uva</td>
+                        <td>🍇</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Laranja</td>
+                        <td>🍊</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
